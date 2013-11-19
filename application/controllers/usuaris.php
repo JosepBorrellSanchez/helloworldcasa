@@ -34,11 +34,13 @@ class usuaris extends CI_Controller {
 }
 	public function eliminar()
 	{
-		
+		$actor_id = $this->db->get('actor');
+		$this->users->deleteUser($actor_id);
 		$this->load->view('eliminar'); 
 }
 	public function modificarusuari()
 	{
+		
 		
 		$this->load->view('modificarusuari'); 
 }

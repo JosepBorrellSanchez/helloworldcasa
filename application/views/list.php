@@ -26,7 +26,7 @@
 				echo "<td>" .$index ->actor_id. "</td>";
 				echo "<td>" .$index-> fullname. "</td>";
 				echo "<td>".' <a href="modificarusuari/1"><button class="btn btn-primary" type="button">Modificar</button></a>'.
-			'<a href="eliminarusuari/1"><button class="btn btn-danger" type="button">Eliminar</button></a>'."</td>";
+			'<a href="eliminar"><button class="btn btn-danger" type="button">Eliminar</button></a>'."</td>";
 			echo "</tr>";}
 			
 			?>	
